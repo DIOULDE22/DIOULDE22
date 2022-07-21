@@ -1,0 +1,1219 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body{
+  margin: 0;
+  font-family: "Raleway", sans serif;
+}
+/* correction */
+.header-nav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* correction */
+.header-nav{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+#nav-heberg{
+
+  flex : 1;
+  order : 1;
+  text-align: center;
+  color: black;
+}
+
+#nav-acti{
+  flex : 1;
+  order : 2;
+  text-align: center;
+ color: black;
+}
+
+.nav-hover:hover{
+  border-top : 3px solid #0065fc;
+  color : #0065fc; 
+}
+
+.txt-hover:hover{
+  color : #0065fc;
+}
+
+#logo{
+  flex : 6;
+  order : 0;
+  
+}
+
+#logo img{
+  position: relative;
+  height: 50px;
+  top : 20%;
+  left : 2%;
+}
+
+.flex-child{
+  line-height: 80px;
+}
+
+.textdeconon{
+  text-decoration: none;
+ color: black;
+ 
+}
+
+
+/* section */
+
+ .textreve{
+  font-size: 25px;
+  margin: 10px;
+ }
+
+ .textnatur{
+   
+   margin: 10px;
+ }
+
+.local{
+    padding-left: 15px;
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+ height: 20px;
+ border: 10px;
+}
+
+.Iconemap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  background-color:#F2F2F2 ;
+  border-radius: 20px 0px 0px 20px
+}
+
+.Place{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  height: 50px;
+  width: 230px;
+
+}
+
+.desktopnone{
+  display: none;
+} 
+.btnRecherch{
+  cursor: pointer;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 150px;
+  color: white;
+  background-color: #0065fc;
+  border-radius: 0px 20px 20px 0px ;
+  border: #0065fc;
+}
+
+.ElementInput{
+  margin-left: 10px;
+  color:black ;
+  font-weight: bold;
+  font-family:"Raleway", sans serif;;
+  font-size: 17px;
+  border: none;
+  height: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Partie filtre */
+
+.parent{
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.filtre{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.Eco{
+  font-weight: bold;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Fami{
+  font-weight: bold;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.Roma{
+  font-weight: bold;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Anim{
+  font-weight: bold;
+  height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0 20px 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Ecoicone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  color: #0065fc;
+  background-color: #F2F2F2;
+
+}
+
+.Icone{
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  color: #0065fc;
+  background-color: #E1EBF5;
+
+}
+
+.Romaicone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  color: #0065fc;
+  background-color: #F2F2F2;
+
+}
+
+.Animicone{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  color: #0065fc;
+  background-color: #F2F2F2;
+
+}
+
+.enfant1{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 2px solid #EAECEE;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.enfant2{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 2px solid #EAECEE;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 15px;
+  justify-content: space-between;
+
+}
+
+.enfant3{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 2px solid #EAECEE;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 15px;
+  justify-content: space-between;
+
+}
+
+.enfant4{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  border: 2px solid #EAECEE;
+  height: 50px;
+  border-radius: 30px;
+  margin-right: 15px;
+  justify-content: space-between;
+}
+
+.IconeHover:hover > .Icone{
+  color:white;
+  background-color: #0065fc;
+}
+
+.IconeHover:hover > .Eco{
+ color: #0065fc;
+}
+
+.IconeHover:hover > .Icone{
+  color:white;
+  background-color: #0065fc;
+}
+
+.IconeHover:hover > .Fami{
+ color: #0065fc;
+}
+
+.IconeHover:hover > .Icone{
+  color:white;
+  background-color: #0065fc;
+}
+
+.IconeHover:hover > .Roma{
+ color: #0065fc;
+}
+
+.IconeHover:hover > .Icone{
+  color:white;
+  background-color: #0065fc;
+}
+
+.IconeHover:hover > .Anim{
+ color: #0065fc;
+}
+
+/* ************************INFORMATION************************************* */
+
+.conteneur{
+  display: flex;
+  align-items: center;
+}
+
+.I{
+display: flex !important;
+justify-content: center;
+align-items: center;
+color: #0065fc;
+}
+
+.PI{
+  margin: 10px;
+  width: 22px;
+  height: 22px;
+  border: 2px solid #E1EBF5;
+  border-left: 15px;
+  border-radius: 25px;
+}
+
+/*************Hebergement***et***Populaire****************/
+
+.secpar{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 650px;
+ 
+}
+
+.Hébergement{
+  margin-right: 15px;
+  margin-left: 15px;
+  border-radius: 25px;
+  width: 100%;
+  height: 650px;
+  background-color: #F2F2F2;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.cart-imag1{
+  height: 120px;
+  width: 100%;
+  background: url(../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0 ;
+}
+ 
+.cart-imag2{
+  height: 120px;
+  width: 100%;
+  background: url(../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0 ;
+}
+
+.cart-imag3{
+  height: 120px;
+  width: 100%;
+  background: url(../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0 ;
+}
+
+.cart-imag4{
+  height: 120px;
+  width: 100%;
+  background: url(../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0 ;
+}
+
+.cart-imag5{
+  height: 120px;
+  width: 100%;
+  background: url(../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0 ;
+}
+
+.cart-imag6{
+  height: 120px;
+  width: 100%;
+  background: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0 ;
+}
+
+.carte{
+  width: 30%;
+  height:auto;
+  background-color: white;
+  padding: 1%;
+  border-radius: 20px;
+}
+
+.carte:hover{
+  cursor: pointer;
+  transform: scaleX(1.1);
+  
+}
+
+.blokherg{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.Ligne1{ 
+margin-bottom: 8px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.Ligne2{ 
+margin-top: 30px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.text{
+  font-weight: bold;
+  border-top: 10px;
+}
+
+/* *************************POPULAIRES*************************** */
+
+
+.Populaire{
+  margin-left: 15px;
+  margin-right: 15px;
+  border-radius: 25px;
+  width: 32%;
+  height: 650px;
+  background-color: #EAECEE;
+  padding-left: 10px ;
+  padding-right: 10px ;
+}
+
+.star{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.popimage1{
+  height: 160px;
+  width: 35%;
+  background: url(../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 0 0 15px ;
+}
+
+.popimage2{
+  height: 160px;
+  width: 35%;
+  background: url(../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 0 0 15px ;
+}
+
+.popimage3{
+  height: 160px;
+  width: 35%;
+  background: url(../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 0 0 15px ;
+}
+
+.popcarte1{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+background-color: white;
+  height: 180px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.popcarte1:hover{
+  cursor: pointer;
+  transform: scaleX(1.1);
+  
+}
+
+.popcarte2{
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 180px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.popcarte2:hover{
+  cursor: pointer;
+  transform: scaleX(1.1);
+}
+
+.popcarte3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 180px;
+  border-radius: 20px;
+}
+
+.popcarte3:hover{
+  cursor: pointer;
+  transform: scaleX(1.1);
+  
+}
+
+.poptext{
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  padding-left: 5%;
+}
+
+.blok{
+height: 650px;
+display: flex;
+flex-direction: column;
+}
+
+.starcolor1{
+  color: #0065fc;
+}
+
+.starcolor2{
+  color: #caced2;
+}
+
+/* *************************Activité******************************* */
+
+.textamars{
+  margin-left: 20px;
+}
+
+.activ{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.activzone{
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.cartactiv1{
+width: 22%;
+border-radius: 15px;
+box-shadow: 5px 5px 5px 1px #EAECEE;
+}
+
+.cartactiv1:hover{
+  cursor: pointer;
+  transform: scaleX(1.1);
+  
+}
+
+.imagactiv1{
+  height: 530px;
+  width: 100%;
+  background: url(../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  border-radius: 15px 15px 0 0 ;
+}
+
+.textactiv{
+  height: 70px;
+  display: flex;
+  padding-left: 20px;
+}
+
+.cartactiv4{
+  width: 22%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px #EAECEE;
+  }
+  
+  .cartactiv4:hover{
+    cursor: pointer;
+    transform: scaleX(1.1);
+    
+  }
+
+  .imagactiv4{
+    height: 530px;
+    width: 100%;
+    background: url(../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px 15px 0 0 ;
+  }
+  
+  .textactiv{
+    height: 70px;
+    display: flex;
+    padding-left: 20px;
+  
+  }
+
+
+  .cartactiv2{
+  width: 22%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 1px white;
+    }
+    
+    .cartactiv2:hover{
+      cursor: pointer;
+      transform: scaleX(1.1);
+      
+    }
+
+    .imagactiv2{
+      height: 265px;
+      width: 100%;
+      background: url(../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px 15px 0 0 ;
+    }
+    
+    .textactiv2{
+      border-radius:0 0 15px 15px;
+      box-shadow: 1px 5px 5px 5px #EAECEE;
+      margin-bottom: 40px;
+      height: 70px;
+      display: flex;
+      padding-left: 20px;
+    
+    }
+
+    .cartactiv3{
+      margin-top: 15px;
+      width: 22%;
+      border-radius: 15px;
+      box-shadow: 5px 5px 5px 1px #EAECEE;
+        }
+
+    .imagactiv3{
+      height: 150px;
+      width: 100%;
+      background: url(../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px 15px 0 0 ;
+    }
+    
+    .textactiv3{
+      height: 70px;
+      display: flex;
+      padding-left: 20px;
+      box-shadow: 5px 5px 5px  1px #EAECEE;
+      border-radius:  0 0 15px 15px;
+    }
+
+    .imagactiv5{
+      height: 210px;
+      width: 100%;
+      background: url(../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px 15px 0 0 ;
+    }
+    
+    .textactiv5{
+      border-radius:0 0 15px 15px;
+      box-shadow: 1px 5px 5px 5px #EAECEE;
+      margin-bottom: 40px;
+      height: 70px;
+      display: flex;
+      padding-left: 20px;
+    
+    }
+
+    .imagactiv6{
+      height: 210px;
+      width: 100%;
+      background: url(../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg);
+      background-size: cover;
+      background-position: center;
+      border-radius: 15px 15px 0 0 ;
+    }
+    
+    .textactiv6{
+      height: 70px;
+      display: flex;
+      padding-left: 20px;
+      box-shadow: 5px 5px 5px  1px #EAECEE;
+      border-radius:  0 0 15px 15px;
+    
+    }
+
+    /* *******************Footer********************** */
+
+    .footer{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #EAECEE;
+      height: 230px;
+      margin-top: 50px;
+    }
+
+
+    /**********************Media queries******Mobile**********************/
+
+    @media (max-width: 767px) {
+
+
+
+      .header-nav{
+          flex-wrap: wrap;
+         
+      }
+    
+      #nav-heberg{
+          order : 2;
+          flex-basis: 50%;
+          border-bottom : 5px solid #EAECEE;
+      }
+      
+      #nav-acti{
+          order : 3;
+          border-bottom : 5px solid #EAECEE;
+          flex-basis: 50%;
+      }
+      
+      #logo{
+          order : 0;
+          flex-basis: 80%;    
+      }
+      
+      #logo img{
+    
+        height: 50px;
+        top : 20%;
+        left : 35%;
+      }
+    
+     
+    
+      .nav-hover:hover{
+          border-top : none;
+          border-bottom : 5px solid #0065fc !important; /* Le important est une solution de facilité !! A éviter, c'était pour aller plus vite */
+          color : #0065fc;
+      }
+
+      .txt-hover:hover{
+        color : #0065fc;
+      }
+
+      .H1P1{
+        flex-direction: column;
+        margin-top: 10px;
+        width: auto;
+        height: auto;
+      }
+    .center{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+      .loup{
+        height: 50px;
+        width: 50px;
+        border-radius: 15px;
+        cursor: pointer;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background-color: #0065fc;
+       border: #0065fc;
+       
+      }
+      .btnRecherch{
+        width: 50px;
+        border-radius: 15px;
+      }
+
+      .mobilnone{
+        display: none;
+      }
+
+      .desktopnone{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .filtre{
+        width: 100%;
+      }
+
+      .parent{
+        flex-wrap: wrap;
+        
+      }
+    
+      .secpar{
+       flex-wrap: wrap;
+       flex-direction: column-reverse;
+       height: auto;
+      
+      }
+    
+      .popcarte2:hover{
+        cursor: none;
+        transform: none;
+      }
+
+      .popcarte1:hover{
+        cursor: none;
+        transform: none;
+      }
+
+      .popcarte3:hover{
+        cursor: none;
+        transform: none;
+      }
+
+      .cartactiv1:hover{
+        cursor: none;
+        transform: none;
+      }
+
+      .cartactiv2:hover{
+        cursor: none;
+        transform: none;
+      }
+
+      .cartactiv4:hover{
+        cursor: none;
+        transform: none;
+      }
+
+      .carte:hover{
+        cursor: none;
+        transform: none;
+        
+      }
+
+.Populaire{
+  width: auto;
+}
+
+.popcarte1{
+  width: auto;
+}
+
+
+    .Hébergement{
+      width: auto;
+    height:auto !important;
+    }
+    
+    
+    .Ligne1{
+      width: auto;
+      flex-direction: column;
+     
+    }
+    
+.carte{
+  margin-bottom: 20px;
+  width: 96%;
+}
+
+    .Ligne2{
+      width: auto;
+      flex-direction: column;
+     
+    }
+    
+    .activzone{
+      height: auto;
+      width: 100%;
+     display: block;
+     
+    }
+    
+    .cartactiv1{
+      width: auto;
+      height: auto;
+      border-bottom: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+.imagactiv1{
+  height: 150px;
+}
+
+    .cartactiv2{
+      width: auto;
+      height: 500px;
+      border-top: 15px;
+      border-bottom: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .imagactiv2{
+      height: 150px;
+    }
+
+  
+
+    .imagactiv3{
+      height: 150px;
+    }
+
+    .cartactiv4{
+      width: auto;
+      height: auto;
+      border-bottom: 15px;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+    .imagactiv4{
+      height: 150px;
+    }
+
+    .imagactiv5{
+      height: 150px;
+    }
+
+    .imagactiv6{
+      height: 150px;
+    }
+
+.footer{
+  height: auto;
+  width: 100%;
+  flex-direction: column;
+  
+}
+
+.bloc1{
+  width: 100%;
+  margin-left: 25px;
+}
+
+.bloc2{
+  width: 100%;
+  margin-left: 25px;
+}
+
+.bloc3{
+  width: 100%;
+  margin-left: 25px;
+}
+
+ }
+
+ /* ********************Media queries*Tablette**************************** */
+ 
+ @media (min-width: 768px) and (max-width: 992px){
+
+
+
+  .parent{
+    width: 100%;
+     flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .filtre{
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .Anim{
+    font-weight: bold;
+    height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0 20px 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .enfant1{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 2px solid #EAECEE;
+    height: 50px;
+    border-radius: 30px;
+    margin-right: 15px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 12px;
+  }
+
+  .enfant4{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 2px solid #EAECEE;
+    height: 50px;
+    border-radius: 30px;
+    justify-content: space-between;
+    margin: 10px;
+    margin-left: 12px;
+  }
+
+  .secpar{
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+
+  }
+  
+  .Hébergement{
+    order: 1;
+    width: 95%;
+    height: 650px;
+    background-color: #F2F2F2;
+   margin-top: 20px;
+  }
+  
+  .ACs{
+  margin-top: 15px;
+}
+
+  carte{
+    width: 40%;
+    height:auto;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+  }
+  
+  .star{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+  .Populaire{
+    order: 0;
+    display: block;
+    width: 95%;
+    height: 650px;
+    background-color: #EAECEE;
+    
+  }
+
+  .activzone{
+    height: auto;
+    width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   
+  }
+  
+  .cartactiv1{
+    width: 20%;
+    height: 500px;
+   
+  }
+
+.imagactiv1{
+height: 450px;
+}
+
+  .cartactiv2{
+    width: 20%;
+    height: 500px;
+  }
+
+  .imagactiv2{
+    height: 170px;
+  }
+
+  .imagactiv3{
+    height: 150px;
+  }
+
+  .cartactiv4{
+    width: 20%;
+    height: 500px;
+    
+  }
+
+  .imagactiv4{
+    height: 440px;
+  }
+
+  .imagactiv5{
+    height: 160px;
+  }
+
+  .imagactiv6{
+    height: 160px;
+  }
+
+  .popcarte2:hover{
+    cursor: none;
+    transform: none;
+  }
+
+  .popcarte1:hover{
+    cursor: none;
+    transform: none;
+  }
+
+  .popcarte3:hover{
+    cursor: none;
+    transform: none;
+  }
+
+  .cartactiv1:hover{
+    cursor: none;
+    transform: none;
+  }
+
+  .cartactiv2:hover{
+    cursor: none;
+    transform: none;
+  }
+
+  .cartactiv4:hover{
+    cursor: none;
+    transform: none;
+  }
+
+  .carte:hover{
+    cursor: none;
+    transform: none;
+    
+  }
+
+  .footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EAECEE;
+    height: 230px;
+    margin-top: 50px;
+  }
+ }
+    
